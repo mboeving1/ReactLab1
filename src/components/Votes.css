@@ -1,0 +1,31 @@
+.chocolateBar .progress-bar{
+    background: rgb(112, 91, 91);
+}
+
+.vanillaBar .progress-bar{
+    background: beige;
+}
+
+.strawberryBar .progress-bar{
+    background: pink;
+}
+.btn{
+    background-color: #0e3c7e;
+}
+.btn-primary{
+    background-color: #0e3c7e;
+}
+.btn-secondary{
+    background-color: #0e3c7e;
+}
+.btn-success{
+    background-color: #0e3c7e;
+}
+
+@media only screen and (min-width: 768px){
+    .VotesDiv{
+        /* display:flex; */
+        width:50%;
+        float:right;
+    }
+}
