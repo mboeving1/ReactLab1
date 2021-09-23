@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import "./AdDesign.css";
+import Ad from "./Ad";
 
 function AdDesign() {
   const [ad, setAd] = useState("Strawberry");
@@ -20,6 +21,7 @@ function AdDesign() {
           <Card.Subtitle className="mb-2" style={styles}>{ad}</Card.Subtitle>
         </Card.Body>
       </Card>
+      {/* <Ad fontSize={font} flavor={ad} darkTheme={theme === "dark"? true : false}/> */}
       <h2>What to Support</h2>
 
       <Button 
